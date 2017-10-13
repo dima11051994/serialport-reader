@@ -1,0 +1,18 @@
+{
+  "name": "serialport-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "nconf": "^0.8.5",
+    "serialport": "https://github.com/mikhail-pridushchenko/node-serialport.git#cfa4cbe15a3b74683186d6121d77a08c047505e5",
+    "winston": "^2.4.0"
+  }
+}
